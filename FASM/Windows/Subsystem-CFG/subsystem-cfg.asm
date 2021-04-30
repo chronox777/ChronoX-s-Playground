@@ -106,8 +106,8 @@ section '.idata' import data readable
   import msvcrt,\
          sprintf,'sprintf'
 
-;section '.rdata' data readable
-align 8
+
+section '.rdata' data readable
 
 data 10
 .Size dd .datasize
